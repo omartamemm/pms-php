@@ -88,6 +88,8 @@ include "inc/header.php";
                 <th>Gender</th>
                 <th>Password</th>
                 <th></th>
+                <th></th>
+
 
             </tr>
         </thead>
@@ -116,7 +118,22 @@ include "inc/header.php";
                 <td>{$user['gender']}</td>
                 <td>{$user['password']}</td>
 
-                <td><a href='edit.php?id={$user['id']}' class='btn btn-danger btn-sm' >Edit</a></td> 
+                <td>
+                <a href='edit.php?id={$user['id']}' class='btn btn-danger btn-sm' >Edit</a>
+             
+                </td> 
+
+                <td>
+
+                 <form action='handelers/delete_user.php' method='POST'>
+
+                 <input type='hidden' name='id'  value='{$user['id']}'> 
+             
+                  <input type='submit' class='btn btn-danger' value='Delete'>
+                 </form>
+                
+                
+                </td>
 
             </tr>
 

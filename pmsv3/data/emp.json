@@ -3,41 +3,9 @@
         "id": 1,
         "name": "omar",
         "email": "omartamemm@gmail.com",
-        "phone": "01029995857",
+        "phone": "0102999585",
         "gender": "male",
         "password": "12345678"
-    },
-    {
-        "id": 2,
-        "name": "tamem adel",
-        "email": "tamem@gmail.com",
-        "phone": "01013297481",
-        "gender": "male",
-        "password": "12345678910"
-    },
-    {
-        "id": 3,
-        "name": "tyser",
-        "email": "tysser@gmail.com",
-        "phone": "010299585117",
-        "gender": "female",
-        "password": "136416464566"
-    },
-    {
-        "id": 4,
-        "name": "tota",
-        "email": "tota@gmail.com",
-        "phone": "0102995857",
-        "gender": "female",
-        "password": "136416464566"
-    },
-    {
-        "id": 5,
-        "name": "tyser",
-        "email": "tota@gmail.com",
-        "phone": "0102995857",
-        "gender": "female",
-        "password": "136416464566"
     },
     {
         "id": 6,
@@ -54,5 +22,13 @@
         "phone": "01007465887",
         "gender": "female",
         "password": "12365478910"
+    },
+    {
+        "id": 8,
+        "name": "eslam",
+        "email": "eslam@gmail.com",
+        "phone": "102966562",
+        "gender": "male",
+        "password": "12345678"
     }
 ]

@@ -175,3 +175,30 @@ function user_login($name, $password)
     return "no";
 }
 
+
+function delete_user($id){
+    if (file_exists($GLOBALS['file'])) {
+        $users = json_decode(file_get_contents($GLOBALS['file']), true);
+    
+    
+    foreach ($users as $key => $value) {
+       if($value["id"]==$id){
+        unset($users[$key]);
+        $users=array_values($users);
+
+        file_put_contents($GLOBALS['file'], json_encode($users, JSON_PRETTY_PRINT));
+
+        return true;
+       }
+    }
+    
+    
+    }
+    else 
+    {
+        return false;
+    }
+    
+
+    
+}
