@@ -42,7 +42,7 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder">Fancy Product</h5>
                             <!-- Product price-->
-                            $40.00 - $80.00
+                            $50.00 - $80.00
                         </div>
                     </div>
                     <!-- Product actions-->
